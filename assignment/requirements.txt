@@ -1,5 +1,4 @@
 requests
-beautifulsoup
 bs4
 numpy
 pandas
