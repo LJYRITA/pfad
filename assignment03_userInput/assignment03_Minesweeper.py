@@ -87,8 +87,7 @@ def show_grid(screen, grid, revealed, flags):
     grid_size = len(grid)
     cell_size = screen_size // grid_size
     
-    font_size = cell_size // 2
-    font = pygame.font.SysFont(None, font_size)
+    font = pygame.font.SysFont(None, 20)
 
     for x in range(grid_size):
         for y in range(grid_size):
